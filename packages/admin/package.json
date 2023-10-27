@@ -1,8 +1,11 @@
 {
   "name": "@medusajs/admin",
-  "version": "7.1.5",
+  "version": "7.1.5-e1",
   "bin": {
     "medusa-admin": "./bin/medusa-admin.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.devport.space"
   },
   "main": "index.js",
   "types": "lib/index.d.ts",
@@ -27,7 +30,7 @@
     "directory": "packages/admin"
   },
   "dependencies": {
-    "@medusajs/admin-ui": "^2.1.5",
+    "@medusajs/admin-ui": "2.1.5-e1",
     "@rollup/plugin-alias": "5.0.0",
     "@rollup/plugin-commonjs": "24.1.0",
     "@rollup/plugin-json": "6.0.0",
